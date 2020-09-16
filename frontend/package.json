@@ -1,0 +1,19 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "This is an app demo for Habr article.",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "\"https://github.com/Etoneja/modern_app_from_scratch.git\""
+  },
+  "keywords": [
+    "test",
+    "scratch"
+  ],
+  "author": "Etoneja",
+  "license": "MIT"
+}
