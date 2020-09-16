@@ -4,16 +4,32 @@
   "description": "This is an app demo for Habr article.",
   "main": "index.js",
   "scripts": {
+    "build": "echo build",
+    "start": "node index.js",
     "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
   },
   "repository": {
     "type": "git",
     "url": "\"https://github.com/Etoneja/modern_app_from_scratch.git\""
   },
+  "dependencies": {
+    "express": "^4.16.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
   "keywords": [
     "test",
     "scratch"
   ],
   "author": "Etoneja",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/polyfill": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
 }
