@@ -4,8 +4,8 @@
   "description": "This is an app demo for Habr article.",
   "main": "index.js",
   "scripts": {
-    "build": "echo build",
-    "start": "node index.js",
+    "build": "webpack",
+    "start": "node /app/server.js",
     "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
   },
   "repository": {

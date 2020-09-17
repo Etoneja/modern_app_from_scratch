@@ -15,4 +15,3 @@ ADD . /app/src
 WORKDIR /app/src
 RUN npm run build
 CMD npm run start
-
